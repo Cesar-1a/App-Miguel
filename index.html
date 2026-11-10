@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simulador PGN 2026 · Convocatoria 388</title>
+<meta name="description" content="Simulador de pruebas escritas estilo Universidad de Antioquia para la Convocatoria 388-2026 de la Procuraduría (Asesor 1AS-19, División Administrativa).">
+<link rel="stylesheet" href="css/app.css?v=5">
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
+  <div class="brand">
+    <span class="brand-mark">PGN</span>
+    <div>
+      <strong>Simulador Mérito 2026</strong>
+      <small>Conv. 388 · Asesor 1AS-19 · Inmuebles y obras</small>
+    </div>
+  </div>
+  <button class="theme-btn" id="themeBtn" aria-label="Cambiar tema">◐</button>
+</header>
+
+<nav class="sidenav" id="sidenav">
+  <a href="#inicio" data-v="inicio">🏠 Inicio</a>
+  <a href="#simulacro" data-v="simulacro">📝 Simulacro de examen</a>
+  <a href="#practica" data-v="practica">🎯 Práctica por eje</a>
+  <a href="#comportamental" data-v="comportamental">🧭 Competencias comportamentales</a>
+  <a href="#repaso" data-v="repaso">🔁 Repaso inteligente</a>
+  <a href="#estadisticas" data-v="estadisticas">📈 Estadísticas</a>
+  <a href="#estudio" data-v="estudio">📚 Guía de estudio</a>
+  <a href="#udea" data-v="udea">🎓 Cómo pregunta la UdeA</a>
+  <a href="#calculadora" data-v="calculadora">🧮 Calculadora de puntaje</a>
+  <a href="#datos" data-v="datos">💾 Mis datos y banco</a>
+</nav>
+
+<main id="app" tabindex="-1"></main>
+
+<!-- Configuración y ajustes (deben cargar antes de los bancos) -->
+<script src="js/config.js?v=5"></script>
+<script src="js/ajuste_opciones.js?v=5"></script>
+<script src="js/ajuste388.js?v=5"></script>
+<script src="js/ajuste388b.js?v=5"></script>
+<!-- Núcleo general: compartido con la Convocatoria 217 -->
+<script src="js/banco_general.js?v=5"></script>
+<script src="js/banco_general2.js?v=5"></script>
+<script src="js/banco_general3.js?v=5"></script>
+<!-- Contratación estatal reutilizada de la 217 (los demás ejes de esos archivos se descartan) -->
+<script src="js/banco_especifico2.js?v=5"></script>
+<script src="js/banco_especifico4.js?v=5"></script>
+<!-- Núcleo específico propio de la Convocatoria 388 -->
+<script src="js/banco388_a.js?v=5"></script>
+<script src="js/banco388_b.js?v=5"></script>
+<script src="js/banco388_c.js?v=5"></script>
+<script src="js/banco388_d.js?v=5"></script>
+<script src="js/banco388_e.js?v=5"></script>
+<script src="js/banco388_f.js?v=5"></script>
+<script src="js/banco388_comp.js?v=5"></script>
+<script src="js/banco388_comp2.js?v=5"></script>
+<script src="js/app.js?v=5"></script>
+</body>
+</html>
